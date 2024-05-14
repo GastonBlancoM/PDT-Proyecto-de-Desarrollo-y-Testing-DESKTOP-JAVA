@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd">
+	<persistence-unit-metadata>
+		<persistence-unit-defaults>
+			<access>FIELD</access>
+		</persistence-unit-defaults>
+	</persistence-unit-metadata>
+	<entity class="com.entities.Usuario" access="FIELD">
+		<table name="USUARIOS">
+		</table>
+	</entity>
+	<entity class="com.entities.ITR" access="FIELD">
+		<table name="ITRs">
+		</table>
+	</entity>
+	<entity class="com.entities.Estudiante" access="FIELD">
+		<table name="ESTUDIANTES">
+		</table>
+	</entity>
+	<entity class="com.entities.Analista" access="FIELD">
+		<table name="ANALISTAS">
+		</table>
+	</entity>
+	<entity class="com.entities.Reclamo" access="FIELD">
+		<table name="RECLAMOS">
+		</table>
+	</entity>
+	<entity class="com.entities.Constancia" access="FIELD">
+		<table name="Constancias">
+		</table>
+	</entity>
+	<entity class="com.entities.Tutor" access="FIELD">
+		<table name="TUTORES">
+		</table>
+	</entity>
+	<entity class="com.entities.Solicitud" access="FIELD">
+		<table name="SOLICITUDES">
+		</table>
+	</entity>
+	<entity class="com.entities.Accion_Reclamo" name="ACCION_RECLAMO" access="FIELD">
+	</entity>
+	<entity class="com.entities.Accion_Constancia" access="FIELD">
+		<table name="ACCION_CONSTANCIA">
+		</table>
+	</entity>
+	<entity class="com.entities.Justificacion" name="JUSTIFICACION" access="FIELD">
+	</entity>
+	<entity class="com.entities.Convocatoria_Asistencia" access="FIELD">
+		<table name="CONVOCATORIA_ASISTENCIA">
+		</table>
+	</entity>
+	<entity class="com.entities.TipoEvento" access="FIELD">
+		<table name="TIPOEVENTO">
+		</table>
+	</entity>
+</entity-mappings>
